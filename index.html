@@ -1,0 +1,979 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The 2027 Blueprint: Cracking India&#39;s Highest Placement Packages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <style>
+        :root {
+            --primary: #0f766e;
+            --secondary: #f59e0b;
+            --accent: #10b981;
+            --neutral: #374151;
+            --base-100: #ffffff;
+            --base-200: #f8fafc;
+            --base-300: #e2e8f0;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--neutral);
+            overflow-x: hidden;
+        }
+        
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .toc-fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100vh;
+            background: var(--base-100);
+            border-right: 1px solid var(--base-300);
+            z-index: 50;
+            overflow-y: auto;
+            padding: 2rem 1.5rem;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .main-content {
+            margin-left: 280px;
+            min-height: 100vh;
+        }
+        
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            align-items: center;
+            min-height: 60vh;
+        }
+        
+        .bento-card {
+            background: linear-gradient(135deg, rgba(15, 118, 110, 0.05) 0%, rgba(16, 185, 129, 0.05) 100%);
+            border: 1px solid rgba(15, 118, 110, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            word-wrap: break-word;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .company-card {
+            background: var(--base-100);
+            border: 1px solid var(--base-300);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .company-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(15, 118, 110, 0.1);
+        }
+        
+        .stat-highlight {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-weight: 600;
+            display: inline-block;
+        }
+        
+        .quote-block {
+            border-left: 4px solid var(--primary);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--neutral);
+        }
+        
+        .citation {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted var(--primary);
+        }
+        
+        .citation:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        
+        @media (max-width: 1024px) {
+            .toc-fixed {
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+            
+            .toc-fixed.open {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero-grid h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-grid h1 em {
+                font-size: 2rem;
+            }
+            
+            .bento-card {
+                padding: 1.5rem;
+            }
+            
+            .hero-grid .space-y-6 > .flex {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .hero-grid .space-y-6 > .flex > .stat-highlight {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+  </head>
+
+  <body class="bg-gray-50">
+    <!-- Table of Contents -->
+    <nav class="toc-fixed">
+      <div class="mb-8">
+        <h3 class="text-lg font-bold text-gray-800 mb-4">Table of Contents</h3>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a href="#executive-summary" class="text-gray-600 hover:text-teal-600 transition-colors">Executive Summary</a>
+          </li>
+          <li>
+            <a href="#understanding-landscape" class="text-gray-600 hover:text-teal-600 transition-colors">Understanding the Placement Landscape</a>
+          </li>
+          <li>
+            <a href="#company-profiles" class="text-gray-600 hover:text-teal-600 transition-colors">Company Profiles &amp; Selection Processes</a>
+          </li>
+          <li>
+            <a href="#strategies" class="text-gray-600 hover:text-teal-600 transition-colors">Strategies for Success</a>
+          </li>
+          <li>
+            <a href="#ai-revolution" class="text-gray-600 hover:text-teal-600 transition-colors">The AI Revolution in Placements</a>
+          </li>
+          <li>
+            <a href="#institutional-role" class="text-gray-600 hover:text-teal-600 transition-colors">Institutional Preparation</a>
+          </li>
+          <li>
+            <a href="#conclusion" class="text-gray-600 hover:text-teal-600 transition-colors">Conclusion</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-gray-200">
+        <div class="text-xs text-gray-500 space-y-2">
+          <div><i class="fas fa-calendar mr-2"></i>July 2025</div>
+          <div><i class="fas fa-clock mr-2"></i>15 min read</div>
+        </div>
+      </div>
+    </nav>
+    <!-- Mobile TOC Toggle -->
+    <button class="lg:hidden fixed top-4 left-4 z-50 bg-teal-600 text-white p-2 rounded-lg shadow-lg" onclick="toggleTOC()">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Backdrop Overlay -->
+    <div id="backdrop" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden lg:hidden" onclick="toggleTOC()"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section class="bg-white">
+        <div class="max-w-7xl mx-auto px-6 py-12">
+          <div class="hero-grid">
+            <div class="space-y-6">
+              <div class="space-y-4">
+                <h1 class="serif text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                  The <span class="gradient-text">2027 Blueprint</span>
+                  <br/>
+                  <em class="text-4xl lg:text-5xl text-gray-700">Cracking India&#39;s Highest Placement Packages</em>
+                </h1>
+                <p class="text-xl text-gray-600 max-w-2xl">
+                  A comprehensive guide to navigating the evolving recruitment landscape, mastering AI-driven selection processes, and securing premium packages in the post-GenAI era.
+                </p>
+              </div>
+
+              <div class="flex items-center space-x-6 text-sm text-gray-500">
+                <span class="stat-highlight">
+                  <i class="fas fa-chart-line mr-2"></i>89% Placement Rate
+                </span>
+                <span class="stat-highlight">
+                  <i class="fas fa-rupee-sign mr-2"></i>₹20 LPA Highest Package
+                </span>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <img src="https://kimi-web-img.moonshot.cn/img/img.etimg.com/552abd1df6d202cb8d05092f7e8f18b28170cab8.jpg" alt="Indian engineering students participating in campus placement activities" class="w-full h-48 object-cover rounded-lg mb-4" size="medium" aspect="wide" style="photo" query="Indian engineering students campus placement" referrerpolicy="no-referrer" data-modified="1" data-score="11490.00"/>
+              <div class="space-y-3">
+                <h3 class="font-semibold text-gray-800">Key Insights</h3>
+                <ul class="text-sm text-gray-600 space-y-1">
+                  <li><i class="fas fa-check text-teal-500 mr-2"></i>80% of engineering jobs will require AI skills by 2027</li>
+                  <li><i class="fas fa-check text-teal-500 mr-2"></i>AI-skilled roles pay 25% higher wages</li>
+                  <li><i class="fas fa-check text-teal-500 mr-2"></i>GenAI democratizing high packages across all branches</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Executive Summary -->
+      <section id="executive-summary" class="bg-gray-50 py-16">
+        <div class="max-w-4xl mx-auto px-6">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Executive Summary</h2>
+
+          <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+            <div class="prose prose-lg max-w-none">
+              <p class="text-xl text-gray-700 leading-relaxed mb-6">
+                The placement landscape for engineering graduates is undergoing a radical transformation. With <strong>89% placement rates</strong> and highest packages reaching <strong>₹20 LPA</strong> at leading institutions like GIET Godavari, the opportunities are substantial—but the pathway to success has fundamentally changed.
+              </p>
+
+              <div class="grid md:grid-cols-3 gap-6 my-8">
+                <div class="text-center p-4 bg-teal-50 rounded-lg">
+                  <div class="text-3xl font-bold text-teal-600 mb-2">80%</div>
+                  <div class="text-sm text-gray-600">Engineering jobs requiring AI skills by 2027</div>
+                </div>
+                <div class="text-center p-4 bg-amber-50 rounded-lg">
+                  <div class="text-3xl font-bold text-amber-600 mb-2">25%</div>
+                  <div class="text-sm text-gray-600">Higher wages for AI-skilled professionals</div>
+                </div>
+                <div class="text-center p-4 bg-green-50 rounded-lg">
+                  <div class="text-3xl font-bold text-green-600 mb-2">71.5%</div>
+                  <div class="text-sm text-gray-600">Projected employability rate in FY25</div>
+                </div>
+              </div>
+
+              <p class="text-gray-700">
+                The traditional advantage of Computer Science students is being democratized by <strong>Generative AI</strong>, enabling students from core engineering branches—Electrical, Mechanical, Civil, and Electronics—to compete for high-value roles previously reserved for software specialists. Success in the 2027 placement season will depend on mastering this new reality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Understanding the Placement Landscape -->
+      <section id="understanding-landscape" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-12">Understanding the GIET Placement Landscape</h2>
+
+          <!-- Placement Statistics -->
+          <div class="mb-12">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-6">Placement Statistics &amp; Trends</h3>
+
+            <div class="bg-gray-50 rounded-lg p-8 mb-8">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-4">2022-2023 Performance</h4>
+                  <ul class="space-y-3 text-gray-700">
+                    <li class="flex justify-between">
+                      <span>Placement Rate:</span>
+                      <span class="font-semibold text-teal-600">89%</span>
+                    </li>
+                    <li class="flex justify-between">
+                      <span>Students Placed:</span>
+                      <span class="font-semibold">1,735</span>
+                    </li>
+                    <li class="flex justify-between">
+                      <span>Highest Package:</span>
+                      <span class="font-semibold text-teal-600">₹20 LPA</span>
+                    </li>
+                    <li class="flex justify-between">
+                      <span>Median Salary (UG):</span>
+                      <span class="font-semibold">₹5.75 LPA</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-4">Key Insights</h4>
+                  <div class="space-y-4">
+                    <div class="flex items-start space-x-3">
+                      <i class="fas fa-arrow-up text-green-500 mt-1"></i>
+                      <div>
+                        <div class="font-medium text-gray-800">Consistent Growth</div>
+                        <div class="text-sm text-gray-600">Placement numbers increased from 648 (2021-2022) to 696 (2022-2023) for UG programs</div>
+                      </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                      <i class="fas fa-network-wired text-teal-500 mt-1"></i>
+                      <div>
+                        <div class="font-medium text-gray-800">Diverse Recruiter Base</div>
+                        <div class="text-sm text-gray-600">Over 42 recruiters participated in campus drives</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Key Recruiting Companies -->
+          <div class="mb-12">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-6">Key Recruiting Companies</h3>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+              <div class="space-y-4">
+                <div class="company-card">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-gray-800">Accenture</h4>
+                    <span class="text-xs bg-teal-100 text-teal-800 px-2 py-1 rounded">IT Consulting</span>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-2">Global professional services: Strategy &amp; Consulting, Technology, Operations, Industry X</p>
+                  <div class="text-xs text-gray-500">Roles: Associate Software Engineer, System Analyst</div>
+                </div>
+
+                <div class="company-card">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-gray-800">Amazon</h4>
+                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">E-commerce/Cloud</span>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-2">E-commerce, Cloud Computing (AWS), Digital Streaming, AI</p>
+                  <div class="text-xs text-gray-500">Roles: Software Development Engineer, Support Engineer</div>
+                </div>
+
+                <div class="company-card">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-gray-800">TCS</h4>
+                    <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">IT Services</span>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-2">Global IT Services, Consulting, Business Solutions: IT, BPS, Engineering</p>
+                  <div class="text-xs text-gray-500">Roles: Systems Engineer (Ninja/Digital profiles)</div>
+                </div>
+              </div>
+
+              <div class="space-y-4">
+                <div class="company-card">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-gray-800">Infosys</h4>
+                    <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Digital Services</span>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-2">Next-Generation Digital Services &amp; Consulting</p>
+                  <div class="text-xs text-gray-500">Roles: Systems Engineer, Specialist Programmer</div>
+                </div>
+
+                <div class="company-card">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-gray-800">L&amp;T</h4>
+                    <span class="text-xs bg-orange-100 text-orange-800 px-2 py-1 rounded">Engineering</span>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-2">EPC Projects, Hi-Tech Manufacturing, IT Services</p>
+                  <div class="text-xs text-gray-500">Roles: Graduate Engineer Trainee, Diploma Engineer</div>
+                </div>
+
+                <div class="company-card">
+                  <div class="flex justify-between items-start mb-3">
+                    <h4 class="font-semibold text-gray-800">IBM</h4>
+                    <span class="text-xs bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Technology</span>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-2">Hardware, Software, Cloud, AI, Quantum Computing</p>
+                  <div class="text-xs text-gray-500">Roles: Software Developer, Associate System Engineer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Company Profiles -->
+      <section id="company-profiles" class="bg-gray-50 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-12">Company Profiles: Services, Roles &amp; Selection Processes</h2>
+
+          <div class="space-y-8">
+            <!-- Accenture Profile -->
+            <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+              <div class="flex items-start justify-between mb-6">
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900 mb-2">Accenture</h3>
+                  <p class="text-gray-600">Global professional services leader in digital, cloud, and security solutions</p>
+                </div>
+                <div class="text-right">
+                  <div class="text-sm text-gray-500">Entry Level Roles</div>
+                  <div class="font-semibold text-teal-600">Associate Software Engineer</div>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-3">2025 Selection Process</h4>
+                  <ol class="space-y-2 text-sm text-gray-700">
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-teal-100 text-teal-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">1</span>
+                      <span>Online Application</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-teal-100 text-teal-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">2</span>
+                      <span>Cognitive &amp; Technical Assessment</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-teal-100 text-teal-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">3</span>
+                      <span>Coding Round (Elimination Stage)</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-teal-100 text-teal-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">4</span>
+                      <span>Communication Assessment</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-teal-100 text-teal-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">5</span>
+                      <span>Technical &amp; HR Interviews</span>
+                    </li>
+                  </ol>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-3">Key Changes for 2025</h4>
+                  <ul class="space-y-2 text-sm text-gray-700">
+                    <li class="flex items-center space-x-2">
+                      <i class="fas fa-exclamation-triangle text-amber-500"></i>
+                      <span>Coding round now elimination stage</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                      <i class="fas fa-microphone text-blue-500"></i>
+                      <span>20-minute verbal communication test</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                      <i class="fas fa-star text-purple-500"></i>
+                      <span>STAR method in HR interviews</span>
+                    </li>
+                  </ul>
+
+                  <div class="mt-4 p-3 bg-blue-50 rounded-lg">
+                    <div class="text-xs text-blue-800">
+                      <strong>Pro Tip:</strong> Focus on OOP languages and prepare for scenario-based technical questions
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Amazon Profile -->
+            <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+              <div class="flex items-start justify-between mb-6">
+                <div>
+                  <h3 class="text-xl font-bold text-gray-900 mb-2">Amazon</h3>
+                  <p class="text-gray-600">Global leader in e-commerce, cloud computing, and artificial intelligence</p>
+                </div>
+                <div class="text-right">
+                  <div class="text-sm text-gray-500">Entry Level Roles</div>
+                  <div class="font-semibold text-orange-600">Software Development Engineer</div>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-3">Selection Process</h4>
+                  <ol class="space-y-2 text-sm text-gray-700">
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-orange-100 text-orange-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">1</span>
+                      <span>Application &amp; Eligibility</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-orange-100 text-orange-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">2</span>
+                      <span>Online Assessments (DSA focused)</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-orange-100 text-orange-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">3</span>
+                      <span>Technical Interviews (Multiple rounds)</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <span class="bg-orange-100 text-orange-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-semibold">4</span>
+                      <span>Bar Raiser Round</span>
+                    </li>
+                  </ol>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-3">Amazon&#39;s 14 Leadership Principles</h4>
+                  <div class="grid grid-cols-2 gap-2 text-xs">
+                    <div class="bg-gray-50 p-2 rounded">Customer Obsession</div>
+                    <div class="bg-gray-50 p-2 rounded">Ownership</div>
+                    <div class="bg-gray-50 p-2 rounded">Invent &amp; Simplify</div>
+                    <div class="bg-gray-50 p-2 rounded">Are Right, A Lot</div>
+                    <div class="bg-gray-50 p-2 rounded">Learn &amp; Be Curious</div>
+                    <div class="bg-gray-50 p-2 rounded">Hire &amp; Develop</div>
+                    <div class="bg-gray-50 p-2 rounded">Insist on High Standards</div>
+                    <div class="bg-gray-50 p-2 rounded">Think Big</div>
+                  </div>
+
+                  <div class="mt-4 p-3 bg-orange-50 rounded-lg">
+                    <div class="text-xs text-orange-800">
+                      <strong>Key Focus:</strong> Master DSA, system design fundamentals, and prepare STAR examples for leadership principles
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Strategies -->
+      <section id="strategies" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-12">Strategies for Securing High-Paying Jobs</h2>
+
+          <div class="grid lg:grid-cols-2 gap-12">
+            <div class="space-y-8">
+              <div class="bg-gradient-to-br from-teal-50 to-blue-50 rounded-lg p-6 border border-teal-100">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                  <i class="fas fa-code text-teal-600 mr-3"></i>
+                  Master Core &amp; Emerging Technologies
+                </h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                    <span><strong>Core CS:</strong> DSA, OOP, DBMS, OS, Computer Networks</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                    <span><strong>Programming:</strong> Python, Java, C++, JavaScript proficiency</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                    <span><strong>Emerging Tech:</strong> AI/ML, Cloud Computing, Data Science, Cybersecurity</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-6 border border-purple-100">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                  <i class="fas fa-laptop-code text-purple-600 mr-3"></i>
+                  Excel in Aptitude &amp; Coding
+                </h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-calculator text-blue-500 mt-1"></i>
+                    <span><strong>Quantitative:</strong> Numerical ability, data interpretation</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-puzzle-piece text-blue-500 mt-1"></i>
+                    <span><strong>Logical:</strong> Analytical and critical thinking</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-code text-blue-500 mt-1"></i>
+                    <span><strong>Coding:</strong> Regular practice on LeetCode, HackerRank</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-8">
+              <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-lg p-6 border border-amber-100">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                  <i class="fas fa-comments text-amber-600 mr-3"></i>
+                  Ace Interviews &amp; Soft Skills
+                </h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-microchip text-orange-500 mt-1"></i>
+                    <span><strong>Technical:</strong> Discuss projects in detail, explain concepts clearly</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-users text-orange-500 mt-1"></i>
+                    <span><strong>HR:</strong> Use STAR method, research company values</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-handshake text-orange-500 mt-1"></i>
+                    <span><strong>Communication:</strong> Active listening, confident presentation</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-lg p-6 border border-green-100">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                  <i class="fas fa-briefcase text-green-600 mr-3"></i>
+                  Leverage Internships &amp; Projects
+                </h3>
+                <div class="space-y-3 text-sm text-gray-700">
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-building text-teal-500 mt-1"></i>
+                    <span><strong>Internships:</strong> Real-world experience, potential PPOs</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-project-diagram text-teal-500 mt-1"></i>
+                    <span><strong>Projects:</strong> Solve non-trivial problems, document on GitHub</span>
+                  </div>
+                  <div class="flex items-start space-x-2">
+                    <i class="fas fa-code-branch text-teal-500 mt-1"></i>
+                    <span><strong>Open Source:</strong> Demonstrate initiative and collaboration</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI Revolution -->
+      <section id="ai-revolution" class="bg-gray-50 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-12">The AI Revolution in Placements: 2027 and Beyond</h2>
+
+          <div class="mb-12">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-8">AI&#39;s Impact on Recruitment Processes</h3>
+
+            <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-200 mb-8">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-4">AI-Powered Recruitment Tools</h4>
+                  <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                      <div class="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-robot text-teal-600 text-sm"></i>
+                      </div>
+                      <div>
+                        <div class="font-medium text-gray-800">ATS Screening</div>
+                        <div class="text-xs text-gray-600">45% of Indian enterprises using AI tools for hiring</div>
+                      </div>
+                    </div>
+
+                    <div class="flex items-center space-x-3">
+                      <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-video text-blue-600 text-sm"></i>
+                      </div>
+                      <div>
+                        <div class="font-medium text-gray-800">Video Analysis</div>
+                        <div class="text-xs text-gray-600">AI analyzes verbal responses and non-verbal cues</div>
+                      </div>
+                    </div>
+
+                    <div class="flex items-center space-x-3">
+                      <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-chart-line text-purple-600 text-sm"></i>
+                      </div>
+                      <div>
+                        <div class="font-medium text-gray-800">Predictive Analytics</div>
+                        <div class="text-xs text-gray-600">Forecasting candidate success likelihood</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="quote-block">
+                    <p class="text-gray-700 mb-4">
+                      &#34;67% of candidates strongly disagreed with preferring AI interviews over traditional ones, indicating the need for human oversight remains critical.&#34;
+                    </p>
+                    <cite class="text-sm text-gray-500">— <a href="#" class="citation">AI in India&#39;s Hiring Landscape Report 2025</a>
+                    </cite>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-12">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-8">AI Skills in Demand for High-Paying Roles</h3>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+              <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200 text-center">
+                <div class="text-3xl font-bold text-teal-600 mb-2">80%</div>
+                <div class="text-sm text-gray-600 mb-2">Engineering jobs requiring AI skills by 2027</div>
+                <div class="text-xs text-gray-500">
+                  <a href="#" class="citation">Gartner Report 2024</a>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200 text-center">
+                <div class="text-3xl font-bold text-orange-600 mb-2">25%</div>
+                <div class="text-sm text-gray-600 mb-2">Higher wages for AI-skilled professionals</div>
+                <div class="text-xs text-gray-500">
+                  <a href="#" class="citation">Industry Salary Data</a>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200 text-center">
+                <div class="text-3xl font-bold text-green-600 mb-2">40%</div>
+                <div class="text-sm text-gray-600 mb-2">Growth expected for AI/ML specialist roles</div>
+                <div class="text-xs text-gray-500">
+                  <a href="#" class="citation">WEF Future of Jobs 2023</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-teal-50 to-blue-50 rounded-lg p-8 border border-teal-100">
+              <h4 class="font-semibold text-gray-800 mb-4">Essential AI Skills for 2027</h4>
+              <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 class="font-medium text-gray-700 mb-3">Technical Skills</h5>
+                  <ul class="space-y-2 text-sm text-gray-600">
+                    <li><i class="fas fa-check text-teal-500 mr-2"></i>Machine Learning Algorithms</li>
+                    <li><i class="fas fa-check text-teal-500 mr-2"></i>Neural Networks &amp; Deep Learning</li>
+                    <li><i class="fas fa-check text-teal-500 mr-2"></i>Natural Language Processing (NLP)</li>
+                    <li><i class="fas fa-check text-teal-500 mr-2"></i>Computer Vision</li>
+                    <li><i class="fas fa-check text-teal-500 mr-2"></i>Python with TensorFlow/PyTorch</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 class="font-medium text-gray-700 mb-3">Application Skills</h5>
+                  <ul class="space-y-2 text-sm text-gray-600">
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Data Preprocessing &amp; Feature Engineering</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Model Deployment (Docker, Kubernetes)</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Cloud Platforms (AWS, Azure, GCP)</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Generative AI Tools</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>AI Ethics &amp; Responsible AI</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-8">GenAI: Democratizing High Packages Across All Branches</h3>
+
+            <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+              <div class="grid lg:grid-cols-3 gap-8">
+                <div>
+                  <img src="https://kimi-web-img.moonshot.cn/img/placeholder-0620/%E5%9B%BE%E7%89%8717.png" alt="Engineering students collaborating with AI technology" class="w-full h-32 object-cover rounded-lg mb-4" size="small" aspect="wide" style="photo" query="engineering students using AI technology" referrerpolicy="no-referrer" data-modified="1" data-score="10000.00"/>
+                  <h4 class="font-semibold text-gray-800 mb-2">The Great Equalizer</h4>
+                  <p class="text-sm text-gray-600">
+                    GenAI enables students from core branches to leverage AI tools, making problem-solving skills more valuable than coding expertise alone.
+                  </p>
+                </div>
+
+                <div class="space-y-4">
+                  <h4 class="font-semibold text-gray-800">Branch-Specific Opportunities</h4>
+                  <div class="space-y-3 text-sm">
+                    <div class="flex items-center space-x-2">
+                      <i class="fas fa-bolt text-yellow-500"></i>
+                      <span><strong>EEE:</strong> AI-optimized power systems</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <i class="fas fa-satellite text-blue-500"></i>
+                      <span><strong>ECE:</strong> Signal processing &amp; network optimization</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <i class="fas fa-cogs text-gray-500"></i>
+                      <span><strong>Mechanical:</strong> AI-driven manufacturing simulations</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                      <i class="fas fa-building text-green-500"></i>
+                      <span><strong>Civil:</strong> Smart infrastructure projects</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-teal-50 rounded-lg p-4">
+                  <h4 class="font-semibold text-teal-800 mb-3">Investment Opportunity</h4>
+                  <div class="text-2xl font-bold text-teal-600 mb-2">$1T+</div>
+                  <p class="text-xs text-teal-700">
+                    Flowing into AI-enabled core engineering sectors, creating unprecedented opportunities for skilled graduates.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Institutional Role -->
+      <section id="institutional-role" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-12">GIET&#39;s Role in Preparing Students</h2>
+
+          <div class="grid lg:grid-cols-3 gap-8">
+            <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-100">
+              <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-users text-blue-600 text-xl"></i>
+              </div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-3">Training &amp; Placement Cell</h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li><i class="fas fa-check text-blue-500 mr-2"></i>Pre-Placement Training Programs</li>
+                <li><i class="fas fa-check text-blue-500 mr-2"></i>Mock Interviews &amp; GD Sessions</li>
+                <li><i class="fas fa-check text-blue-500 mr-2"></i>Resume Building Workshops</li>
+                <li><i class="fas fa-check text-blue-500 mr-2"></i>Aptitude &amp; Technical Training</li>
+              </ul>
+            </div>
+
+            <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-lg p-6 border border-green-100">
+              <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-graduation-cap text-green-600 text-xl"></i>
+              </div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-3">Curriculum Adaptations</h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li><i class="fas fa-check text-green-500 mr-2"></i>AI/ML Specializations</li>
+                <li><i class="fas fa-check text-green-500 mr-2"></i>Cloud Computing &amp; Data Science</li>
+                <li><i class="fas fa-check text-green-500 mr-2"></i>Domain-Specific AI Applications</li>
+                <li><i class="fas fa-check text-green-500 mr-2"></i>Hands-on Labs &amp; Projects</li>
+              </ul>
+            </div>
+
+            <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-6 border border-purple-100">
+              <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                <i class="fas fa-handshake text-purple-600 text-xl"></i>
+              </div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-3">Industry Collaboration</h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li><i class="fas fa-check text-purple-500 mr-2"></i>Campus Recruitment Drives</li>
+                <li><i class="fas fa-check text-purple-500 mr-2"></i>Expert Sessions &amp; Guest Lectures</li>
+                <li><i class="fas fa-check text-purple-500 mr-2"></i>Sponsored Projects &amp; Internships</li>
+                <li><i class="fas fa-check text-purple-500 mr-2"></i>Industry-Aligned Training</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Conclusion -->
+      <section id="conclusion" class="bg-gray-50 py-16">
+        <div class="max-w-4xl mx-auto px-6">
+          <h2 class="serif text-3xl font-bold text-gray-900 mb-8">Navigating the Path to a High-Flying Career</h2>
+
+          <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-200 mb-8">
+            <div class="prose prose-lg max-w-none">
+              <p class="text-xl text-gray-700 leading-relaxed mb-6">
+                The pathway to securing high-paying placement packages from GIET Godavari in 2027 demands a <strong>proactive, strategic, and well-rounded approach</strong> that goes beyond traditional academic excellence.
+              </p>
+
+              <div class="grid md:grid-cols-2 gap-8 my-8">
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-4">Critical Success Factors</h4>
+                  <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-microchip text-teal-500 mt-1"></i>
+                      <span>Master core technical skills while embracing AI and emerging technologies</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-code text-blue-500 mt-1"></i>
+                      <span>Excel in aptitude tests and coding challenges through consistent practice</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-comments text-purple-500 mt-1"></i>
+                      <span>Develop strong communication and interpersonal skills</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                      <i class="fas fa-project-diagram text-green-500 mt-1"></i>
+                      <span>Leverage internships and projects to build compelling portfolios</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-gray-800 mb-4">The AI Advantage</h4>
+                  <div class="space-y-3">
+                    <div class="p-3 bg-teal-50 rounded-lg">
+                      <div class="font-medium text-teal-800">GenAI Democratization</div>
+                      <div class="text-sm text-teal-700">Equal opportunities across all engineering branches</div>
+                    </div>
+                    <div class="p-3 bg-blue-50 rounded-lg">
+                      <div class="font-medium text-blue-800">Skills-Based Hiring</div>
+                      <div class="text-sm text-blue-700">Emphasis on practical abilities over traditional qualifications</div>
+                    </div>
+                    <div class="p-3 bg-green-50 rounded-lg">
+                      <div class="font-medium text-green-800">Increased Opportunities</div>
+                      <div class="text-sm text-green-700">25-30% growth in campus hiring for FY25</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="quote-block">
+                <p class="text-gray-700 mb-4">
+                  &#34;The future belongs to those who can combine technical expertise with AI proficiency, regardless of their core engineering discipline. Success in the 2027 placement season will be defined by adaptability, continuous learning, and the strategic application of emerging technologies.&#34;
+                </p>
+              </div>
+
+              <p class="text-gray-700">
+                GIET&#39;s robust institutional support, combined with strategic student preparation and the democratizing power of AI, creates unprecedented opportunities for graduates. By embracing this transformation and focusing on skill development aligned with industry demands, students can confidently navigate their path to high-flying careers in 2027 and beyond.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg p-8 text-white">
+            <div class="text-center">
+              <h3 class="text-2xl font-bold mb-4">Ready to Transform Your Career?</h3>
+              <p class="text-lg mb-6">Start your journey today by mastering the skills that will define tomorrow&#39;s engineering landscape.</p>
+              <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <div class="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
+                  <i class="fas fa-code mr-2"></i>Practice Coding Daily
+                </div>
+                <div class="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
+                  <i class="fas fa-brain mr-2"></i>Learn AI Fundamentals
+                </div>
+                <div class="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
+                  <i class="fas fa-users mr-2"></i>Build Soft Skills
+                </div>
+                <div class="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
+                  <i class="fas fa-briefcase mr-2"></i>Seek Internship Opportunities
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+        // Mobile TOC Toggle and Backdrop
+        function toggleTOC() {
+            const toc = document.querySelector('.toc-fixed');
+            const backdrop = document.getElementById('backdrop');
+            const isOpen = toc.classList.contains('open');
+            
+            toc.classList.toggle('open');
+            backdrop.style.display = isOpen ? 'none' : 'block';
+            
+            // Prevent body scroll when TOC is open
+            document.body.style.overflow = isOpen ? '' : 'hidden';
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    
+                    // Close mobile TOC if open
+                    const toc = document.querySelector('.toc-fixed');
+                    if (toc.classList.contains('open')) {
+                        toggleTOC();
+                    }
+                }
+            });
+        });
+
+        // Close TOC when resizing to desktop
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 1024) {
+                const toc = document.querySelector('.toc-fixed');
+                const backdrop = document.getElementById('backdrop');
+                toc.classList.remove('open');
+                backdrop.style.display = 'none';
+                document.body.style.overflow = '';
+            }
+        });
+    </script>
+  
+
+</body></html>
